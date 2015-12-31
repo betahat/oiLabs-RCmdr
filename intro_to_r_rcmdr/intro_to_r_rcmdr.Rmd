@@ -1,0 +1,61 @@
+---
+title: "Introduction to R and R Commander"
+output:
+  html_document:
+    css: ../lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+R is a powerful piece of software for running statistical analysis. R itself is a language, which means that there is some learning of the language which you’d need to do to run analysis. Fortunately, a program called R Commander exists (as an add-on or package for the R program) which provides a graphical user interface, so that we can perform analysis without having to learn all the intricacies of the R language. R Commander will show you the R commands it runs, and provides R output for you to interpret, so that as you continue exploring statistics beyond the capabilities of R Commander, you will already be familiar with what R input and output looks like. We’ll additionally be install R Studio, a frontend for R which makes using graphics and packages a little easier.
+
+## Installing R
+
+We need to first install R itself. Navigate a web browser to [https://cran.rstudio.com/](https://cran.rstudio.com) where you can select between the windows, mac, and linux installs. Follow the instructions for your particular operating system to install R.
+
+Note for mac users: You will see a note on your download page that you need to install XQuartz as well. Below are the instructions from the R Commander website. The short version is that you will need to go to [http://xquartz.macosforge.org](http://xquartz.macosforge.org/) to download XQuartz before the software will run correctly.</span>
+
+* Check to see whether the X11 windowing system (X Windows) has already been installed on your computer. For OS X 10.6 and 10.7, the file X11.app should appear in the Utilities folder under Applications in the finder. This application should always be installed under OS X 10.7. For OS X 10.8, 10.9, or 10.10, the file is named XQuartz.app and is no longer included with the operating system. XQuartz.app may also be installed in OS X 10.6 or 10.7. (The R Commander uses the tcltkpackage for R, which requires X-Windows.) Note that if you upgrade to OS X 10.9 from 10.8 or to 10.10 from 10.9, you will have to reinstall XQuartz even if you installed it previously.
+
+* If neither X11.app nor XQuartz.app is installed, install XQuartz from [http://xquartz.macosforge.org](http://xquartz.macosforge.org)
+
+* Download the disk image (dmg) file for XQuartz.
+* When you open this file by double-clicking on it, you'll find XQuartz.pkg; double-click on it to run the installer, clicking through all the defaults.
+* After the installer runs, you'll have to log out and back on to your Mac OS X account.
+
+## Installing R Commander
+
+<span>We will install R Commander from within R itself, so you’ll need to open the R program. You may see two versions of the program - a 32 bit and 64 bit version. For our purposes, it will not make much difference which you run. There have been some reports of graphics problems on windows when using the 64 bit version. If you have problems seeing graphics, try switching the version.
+
+The basic process of installing R Commander is to type the command
+
+```{r, eval=FALSE}
+install.packages("Rcmdr", dependencies = TRUE)
+```
+
+in R just after the `>` symbol. You can select a place to download the files from which is close to where you are. If you want to plot mosaic plots, you will also need to run the command 
+
+```{r, eval=FALSE}
+install.packages("RcmdrPlugin.mosaic")
+```
+
+You may also see options to install packages in the menu of R - install the `Rcmdr` and `RcmdrPlugin.mosaic` packages.
+
+There are a few possible installation problems you may run into. The author of R Commander, John Fox, maintains a website with possible installation problems and solutions for them. See [http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/installation-notes.html](http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/installation-notes.html) to identify any problems installing the software.
+
+## Running R Commander
+
+Once R Commander is installed, you will launch it each time by first launching R, the loading R Commander from within R. You can do this either by selecting the “Rcmdr” package from the “Packages” menu at the top of your R window (if you have one) or by typing
+
+```{r, eval=FALSE}
+library(“Rcmdr”)
+```
+
+into the prompt beginning with `>` and pressing enter. This will load R Commander, and is the process we’ll use each time we need to use the program.
+
+
+<div id="license">
+This is a product of OpenIntro that is released under a [Creative Commons Attribution-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0). This lab was adapted for OpenIntro by Matt Thomas from a lab by Andrew Bray and Mine &Ccedil;etinkaya-Rundel
+from a lab written by Mark Hansen of UCLA Statistics.
+</div>
