@@ -7,4 +7,4 @@ Lab 0: [Introduction to R and R Commander](https://htmlpreview.github.io/?https:
 
 Lab 1: [Introduction to data](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/intro_to_data/intro_to_data.html)
 
-Lab 2: Probability
+Lab 2: [Probability](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/probability/probability.html)
