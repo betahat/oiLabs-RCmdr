@@ -205,11 +205,11 @@ Notice that the first line above is just some arithmetic, but it’s applied to 
 
 ### Histograms
 
-We can create a histogram for the ages of our respondents by selecting 'histogram' from the 'graphs' menu, and selecting age as our variable.
+We can create a histogram for the ages of our respondents by selecting `histogram` from the `graphs` menu, and selecting age as our variable.
 
 ![Menu_021.png](images/image19.png)
 
-Histograms are generally a very good way to see the shape of a single distribution, but that shape can change depending on how the data is split between the different bins. You can control the number of bins by clicking the 'options' tab in the histogram windows:
+Histograms are generally a very good way to see the shape of a single distribution, but that shape can change depending on how the data is split between the different bins. You can control the number of bins by clicking the `options` tab in the histogram windows:
 
 ![Histogram_022.png](images/image05.png)
 
@@ -222,9 +222,9 @@ At this point, we’ve done a good first pass at analyzing the information in th
 ## On Your Own
 
 - Make a scatterplot of weight versus desired weight. Describe the relationship between these two variables.
-- Let’s consider a new variable: the difference between desired weight (<span class="c2">wtdesire) and current weight (<span class="c2">weight). Create this new variable by subtracting the two columns in the data frame and assigning them to a new object called <span class="c2">wdiff.
-- What type of data is <span class="c2">wdiff? If an observation <span class="c2">wdiff is 0, what does this mean about the person’s weight and desired weight. What if <span class="c2">wdiff is positive or negative?
-- Describe the distribution of <span class="c2">wdiff in terms of its center, shape, and spread, including any plots you use. What does this tell us about how people feel about their current weight?
+- Let’s consider a new variable: the difference between desired weight (`wtdesire`) and current weight (`weight`). Create this new variable by subtracting the two columns in the data frame and assigning them to a new object called `wdiff`.
+- What type of variable is `wdiff`? If an observation `wdiff` is 0, what does this mean about the person’s weight and desired weight. What if `wdiff` is positive or negative?
+- Describe the distribution of `wdiff` in terms of its center, shape, and spread, including any plots you use. What does this tell us about how people feel about their current weight?
 - Using numerical summaries and a side-by-side box plot, determine if men tend to view their weight differently than women.
 - What concepts from the textbook are covered in this lab? What concepts, if any, are not covered in the textbook? Have you seen these concepts elsewhere, e.g. lecture, discussion section, previous labs, or homework problems? Be specific in your answer.
 
