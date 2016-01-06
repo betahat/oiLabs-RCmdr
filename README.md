@@ -9,7 +9,7 @@ Lab 1: [Introduction to data](https://htmlpreview.github.io/?https://github.com/
 
 Lab 2: [Probability](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/probability/probability.html)
 
-Lab 3: Distributions
+Lab 3: [Distributions](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/normal_distribution/normal_distribution.html)
 
 Lab 4: Intro to Inference
 
