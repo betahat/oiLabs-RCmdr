@@ -119,20 +119,23 @@ Although the probabilities are not exactly the same, they are reasonably close. 
 
 ***
 
-### On Your Own
+## On Your Own
 
-1.   Now let’s consider some of the other variables in the body dimensions data set. Using the figures on the next page, match the histogram to its normal probability plot. All of the variables have been standardized (first subtract the mean, then divide by the standard deviation), so the units won’t be of any help. If you are uncertain based on these figures, generate the plots in R to check.
+- Now let’s consider some of the other variables in the body dimensions data set. Using the figures on the next page, match the histogram to its normal probability plot. All of the variables have been standardized (first subtract the mean, then divide by the standard deviation), so the units won’t be of any help. If you are uncertain based on these figures, generate the plots in R to check.
 
-1.  The histogram for female biiliac (pelvic) diameter (`bii.di`) belongs to normal probability plot letter __.
-3.  The histogram for female elbow diameter (`elb.di`) belongs to normal probability plot letter __.
-5.  The histogram for general age (`age`) belongs to normal probability plot letter __.
-7.  The histogram for female chest depth (`che.de`) belongs to normal probability plot letter __.
+  **a.** The histogram for female biiliac (pelvic) diameter (`bii.di`) belongs to normal probability plot letter __.
+  
+  **b.** The histogram for female elbow diameter (`elb.di`) belongs to normal probability plot letter __.
+  
+  **c.** The histogram for general age (`age`) belongs to normal probability plot letter __.
+  
+  **d.** The histogram for female chest depth (`che.de`) belongs to normal probability plot letter __.
 
-1.  Note that normal probability plots C and D have a slight stepwise pattern. Why do you think this is the case?
-3.  As you can see, normal probability plots can be used both to assess normality and visualize skewness. Make a normal probability plot for female knee diameter (`kne.di`). Based on this normal probability plot, is this variable left skewed, symmetric, or right skewed? Use a histogram to confirm your findings.
-5.  What concepts from the textbook are covered in this lab? What concepts, if any, are not covered in the textbook? Have you seen these concepts elsewhere, e.g. lecture, discussion section, previous labs, or homework problems? Be specific in your answer.
+- Note that normal probability plots C and D have a slight stepwise pattern. Why do you think this is the case?
+- As you can see, normal probability plots can be used both to assess normality and visualize skewness. Make a normal probability plot for female knee diameter (`kne.di`). Based on this normal probability plot, is this variable left skewed, symmetric, or right skewed? Use a histogram to confirm your findings.
+- What concepts from the textbook are covered in this lab? What concepts, if any, are not covered in the textbook? Have you seen these concepts elsewhere, e.g. lecture, discussion section, previous labs, or homework problems? Be specific in your answer.
 
-*The study that published this data set is clear to point out that the sample was not random and therefore inference to a general population is not suggested. We do so here only as an exercise.
+* The study that published this data set is clear to point out that the sample was not random and therefore inference to a general population is not suggested. We do so here only as an exercise.
 
 ![](images/image06.png)
 

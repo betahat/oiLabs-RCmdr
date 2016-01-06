@@ -1,24 +1,48 @@
-s;<span style="overflow[^!]*\(.*\)</span>;\1;g
-s;<span class="c9"></span>;;g
-s;<span></span>;;g
+#Headings
 s;<a name[^>]*></a>;;g
-s;<span class="c15">\([^<]*\)</span>;\1;g
-s;<span>\([^<]*\)</span>;\1;g
-s;<span class="c2 c0">\([^<]*\)</span>;`\1`;g
-s;<span class="c9">Exercise \([0-9]\) </span>;\1. ;g
-s;<span class="c9">\([^<]*\)</span>;### \1;g
-s/&nbsp;/ /g
-s;<span class="c0"></span>;;g
-s;<span class="c0">\([^<]*\)</span>;`\1`;g
-s;<span class="c14">\([^<]*\)</span>;*\1* ;g
-s;<span class="c4"></span>;;g
-s;<span class="c9 c16">\*</span>;*;g
+
+#Images
+s;<span style="overflow[^!]*\(.*\)</span>;\1;g
+
+#Code
+s;<span class="c4">\([^<]*\)</span>;```{r eval=FALSE}\n\1;g
+
+#Links
+s;<span class="c14">\([^<]*\)</span>;\1;g
+s;<span class="c7 c14">\([^<]*\)</span>;\1;g
+
+#Exercises
+s;<span class="c5">Exercise \([0-9]\) *</span>;\1. ;g
+s;<span class="c5">Exercise \([00-99]\) *</span>;\1. ;g
+
+#On your own
 s;### On Your Own;***\n\n### On Your Own;g
-s;<span class="c2 c7">\([^<]*\)</span>;```{r eval=FALSE}\n\1;g
-s;<span class="c2 c10">;;g
-s;<span class="c2 c3">;;g
-s;<span class="c2 c21">;;g
-s;<span class="c3 c22">;;g
-s;<span class="c2 c18">;;g
-s;<span class="c0 c2">;;g
-s;</span>;;g
+
+#Single quotes
+s;<span class="c6">\([^<]*\)</span>;`\1`;g
+s;<span class="c8">\([^<]*\)</span>;`\1`;g
+
+#Italics
+s;<span class="c7">\([^<]*\)</span>;*\1* ;g
+
+#s;<span></span>;;g
+s/&nbsp;/ /g
+
+s;<span>\([^<]*\)</span>;\1;g
+s;\\.;.;g
+
+#Junk
+#s;<span class="c11"></span>;;g
+s;<span class="c11">\([^<]*\)</span>;\1;g
+s;<span class="c18">\([^<]*\)</span>;\1;g
+s;<span class="c2">\([^<]*\)</span>;\1;g
+
+#s;<span class="c9">\([^<]*\)</span>;### \1;g
+
+
+
+#s;<span class="c9 c16">\*</span>;*;g
+
+
+#s;<span class=[^>]*>;;g
+#s;</span>;;g
