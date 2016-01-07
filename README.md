@@ -21,4 +21,8 @@ Lab 7: [Inf. for Categorical Data](https://htmlpreview.github.io/?https://github
 
 Lab 8: [Linear Regression](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/simple_regression/simple_regression.html)
 
-Lab 9: [Chi-square](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/chi_square/chi_square.html)
+Lab 9: Multiple Regression
+
+Lab 10: [Chi-square](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/chi_square/chi_square.html)
+
+Lab 11: ANOVA
