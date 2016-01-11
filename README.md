@@ -13,16 +13,14 @@ Lab 3: [Distributions](https://htmlpreview.github.io/?https://github.com/mthomas
 
 Lab 4: [Intro to Inference](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/sampling_distributions/sampling_distributions.html)
 
-Lab 5: Confidence Levels
+Lab 5: [Inf. for Numerical Data](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/inf_for_numerical_data/inf_for_numerical_data.html)
 
-Lab 6: [Inf. for Numerical Data](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/inf_for_numerical_data/inf_for_numerical_data.html)
+Lab 6: [Inf. for Categorical Data](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/inf_for_categorical_data/inf_for_categorical_data.html)
 
-Lab 7: [Inf. for Categorical Data](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/inf_for_categorical_data/inf_for_categorical_data.html)
+Lab 7: [Linear Regression](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/simple_regression/simple_regression.html)
 
-Lab 8: [Linear Regression](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/simple_regression/simple_regression.html)
+Lab 8: Multiple Regression
 
-Lab 9: Multiple Regression
+Lab 9: [Chi-square](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/chi_square/chi_square.html)
 
-Lab 10: [Chi-square](https://htmlpreview.github.io/?https://github.com/mthomas7/ioLabs-RCmdr/blob/master/chi_square/chi_square.html)
-
-Lab 11: ANOVA
+Lab 10: ANOVA
