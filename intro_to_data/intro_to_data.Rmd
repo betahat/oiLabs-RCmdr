@@ -65,7 +65,7 @@ Click 'ok' to select the cdc data set. In the future, you may have multiple data
 
 #### From a downloaded R data file:
 
-We can also load the same data set from a file on your computer. Download this file: [https://www.dropbox.com/s/our1mbpmgn8sngp/cdc.Rdata?dl=0](https://www.dropbox.com/s/our1mbpmgn8sngp/cdc.Rdata?dl=0) which is an R data file. From the data menu at the top of R Commander, select `load data set`:
+We can also load the same data set from a file on your computer. Download this file: [cdc.Rdata](./cdc.Rdata) which is an R data file. From the data menu at the top of R Commander, select `load data set`:
 
 ![Tooltip_005.png](images/image07.png)
 
